@@ -68,14 +68,14 @@ http://127.0.0.1:8000/
 
 Получаем JWT-токена
 Отправить POST-запрос на адрес `api/v1/jwt/create/`
-#####Payload
+##### Payload
 ```
 {
     "username": - "имя пользователя",
     "password": - "пароль пользователя"
 }
 ```
-#####Response sample (status code = 200)
+##### Response sample (status code = 200)
 ```
 {
     "refresh": "string",
@@ -84,7 +84,7 @@ http://127.0.0.1:8000/
 ```
 Получение публикаций
 Отправить POST-запрос на адрес `api/v1/posts/`
-#####Response sample (status code = 200)
+##### Response sample (status code = 200)
 ```
 {
     "count": 123,
@@ -96,6 +96,6 @@ http://127.0.0.1:8000/
 }
 ```
 
-####Более подробное описание API можно получить по адресу:
+#### Более подробное описание API можно получить по адресу:
 
 http://localhost:8000/redoc/
